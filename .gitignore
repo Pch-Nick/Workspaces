@@ -1,0 +1,9 @@
+bin/
+obj/
+publish/
+dist-installer/
+.vs/
+*.user
+*.suo
+*.log
+TestResults/
