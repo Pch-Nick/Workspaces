@@ -32,17 +32,6 @@
 
 Данные хранятся в `%APPDATA%\Workspaces`: `workspaces.json`, папка `Backups` (резервные копии) и `logs` (журнал ошибок).
 
-## Сборка из исходников
-
-Требуется [.NET SDK 8](https://dotnet.microsoft.com/download) и, для установщика, [Inno Setup 6](https://jrsoftware.org/isinfo.php).
-
-```bat
-build-release.bat   :: Release-сборка в publish\ и установщик в dist-installer\
-run-tests.bat       :: автотесты (xUnit)
-```
-
-Дополнительные заметки для разработчика: [README-DEV.md](README-DEV.md).
-
 ## Обновления
 
 Приложение проверяет последний релиз этого репозитория при запуске (отключается в настройках) и по кнопке «Проверить». Чтобы выпустить обновление, создайте релиз с тегом вида `v1.3.1` и приложите файл установщика `.exe`.
