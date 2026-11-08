@@ -20,7 +20,7 @@
 
 ## Установка
 
-1. Скачайте установщик `Workspaces-Free-Setup-<версия>.exe` в разделе [Releases](https://github.com/Pch-Nick/Workspaces/releases).
+1. Скачайте установщик `Workspaces-Setup-<версия>.exe` в разделе [Releases](https://github.com/Pch-Nick/Workspaces/releases).
 2. Запустите его и следуйте шагам мастера (права администратора не нужны).
 
 ## Как пользоваться
